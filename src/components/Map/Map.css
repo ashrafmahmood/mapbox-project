@@ -1,0 +1,57 @@
+.map-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.sidebarStyle {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.menu {
+  z-index: 1 !important;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 12px;
+  background: #efefef;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu_item > input {
+  cursor: pointer;
+}
+
+.twoD_button {
+  margin: 40px;
+  z-index: 1 !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background: #efefef;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.twoD_button:hover {
+  background: lightgray;
+}
